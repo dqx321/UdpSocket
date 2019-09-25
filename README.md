@@ -7,7 +7,10 @@ Udp工具类
       maven { url 'https://jitpack.io' }
     }
   }
+  
   添加依赖：
   dependencies {
 	        implementation 'com.github.dqx321:UdpSocket:Tag'
 	}
+
+[![](https://jitpack.io/v/dqx321/UdpSocket.svg)](https://jitpack.io/#dqx321/UdpSocket)
