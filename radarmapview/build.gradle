@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 //添加complie生成依赖
 apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.1373516909@qq.com'//最后一个是github账号
+//group='com.github.1373516909@qq.com'//最后一个是github账号
 android {
     compileSdkVersion 27
 
