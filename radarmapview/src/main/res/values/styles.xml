@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+  <declare-styleable name="RadarMapView">
+      <attr name="lineColor" format="color"/><!-- 线的颜色 -->
+      <attr name="cotentColor" format="color"/><!-- 图形的颜色 -->
+      <attr name="valueColor" format="color"/> <!--纬度值原点的颜色-->
+      <attr name="textSize"  format="dimension"/><!--字体的颜色-->
+  </declare-styleable>
+
+</resources>
