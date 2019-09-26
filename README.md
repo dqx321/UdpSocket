@@ -16,12 +16,12 @@
         UDPSocket.receive(ip, 9998);
         
 
-       发送消息: 
+  发送消息: 
        
        UDPSocket.sendInfo(IP, PORT, msg);
        
        
-     2.线程池。
+  2.线程池。
     
     ThreadPoolUtils.execute(new Runnable() {
             @Override
@@ -31,14 +31,14 @@
         });
         
         
-     3.常用单位转换的辅助类。
+  3.常用单位转换的辅助类。
       
-      类名DensityUtils,包含dp转px;sp转px;px转dp;px2sp
+   类名DensityUtils,包含dp转px;sp转px;px转dp;px2sp
       
       
-     4.权限申请Activity。
+  4.权限申请Activity。
      
-     使用方法：
+   使用方法：
      
      extends BaseActivity，
       
@@ -51,12 +51,12 @@
             Manifest.permission.CAMERA
        };
       
-      在方法里调用 
+  在方法里调用 
       
       checkPerMissions(needPermissions);
       
      
-     后续会往里面持续添加功能，敬请期待。
+  后续会往里面持续添加功能，敬请期待。
 
 
 
@@ -68,19 +68,16 @@ Step 1. Add the JitPack repository to your build file
 Add it in your root build.gradle at the end of repositories:
 
 
-allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+                allprojects {
+                                repositories {
+                                        ...
+                                        maven { url 'https://jitpack.io' }
+                                }
+                        }
   
   
 Step 2. Add the dependency
-
-
 dependencies 
-{
-	        implementation 'com.github.dqx321:UdpSocket:1.0.5'
-}
+  
+        {implementation 'com.github.dqx321:UdpSocket:1.0.5'}
         
