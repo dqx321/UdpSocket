@@ -1,7 +1,8 @@
 # UdpSocket
 功能：1.UDP通讯工具类。
        接收消息：
-       UDPSocket.ConnectStateListener(new UDPSocket.ConnectState() {
+      
+      UDPSocket.ConnectStateListener(new UDPSocket.ConnectState() {
             @Override
             public void connectSuccess(String result, int port) {
                 
@@ -13,27 +14,47 @@
             }
         });
         UDPSocket.receive(ip, 9998);
+        
 
-       发送消息: UDPSocket.sendInfo(IP, PORT, msg);
+       发送消息: 
+       
+       UDPSocket.sendInfo(IP, PORT, msg);
+       
+       
      2.线程池。
-      ThreadPoolUtils.execute(new Runnable() {
+    
+    ThreadPoolUtils.execute(new Runnable() {
             @Override
             public void run() {
 
             }
         });
+        
+        
      3.常用单位转换的辅助类。
-       类名DensityUtils,包含dp转px;sp转px;px转dp;px2sp
+      
+      类名DensityUtils,包含dp转px;sp转px;px转dp;px2sp
+      
+      
      4.权限申请Activity。
-       使用方法：extends BaseActivity，
-       /**
+     
+     使用方法：
+     
+     extends BaseActivity，
+      
+      
+      /**
        * 需要进行检测的权限数组
        */
-       protected String[] needPermissions = {
+      
+      protected String[] needPermissions = {
             Manifest.permission.CAMERA
        };
-       在方法里调用 checkPerMissions(needPermissions);
-     
+      
+      在方法里调用 
+      
+      checkPerMissions(needPermissions);
+      
      
      后续会往里面持续添加功能，敬请期待。
 
@@ -46,6 +67,7 @@ Step 1. Add the JitPack repository to your build file
 
 Add it in your root build.gradle at the end of repositories:
 
+
 allprojects {
 		repositories {
 			...
@@ -53,8 +75,12 @@ allprojects {
 		}
 	}
   
+  
 Step 2. Add the dependency
 
-dependencies {
+
+dependencies 
+{
 	        implementation 'com.github.dqx321:UdpSocket:1.0.5'
-	}
+}
+        
