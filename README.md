@@ -81,3 +81,7 @@ dependencies
   
         {implementation 'com.github.dqx321:UdpSocket:1.0.5'}
         
+        
+https://jitpack.io
+[![](https://jitpack.io/v/dqx321/UdpSocket.svg)](https://jitpack.io/#dqx321/UdpSocket)
+        
