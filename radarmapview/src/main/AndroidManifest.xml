@@ -1,2 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.radarmapview" />
+    package="com.example.radarmapview" >
+    <application>
+        <activity android:name="com.example.ui.ChooseFileActivity" android:exported="true"/>
+        <activity android:name="com.example.ui.PlayActivity" android:exported="true"/>
+    </application>
+</manifest>
